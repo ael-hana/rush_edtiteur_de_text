@@ -6,7 +6,7 @@
 "    By: jclerc <jclerc@student.42.fr>              +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2015/12/05 11:04:15 by jclerc            #+#    #+#              "
-"    Updated: 2015/12/05 13:13:06 by jclerc           ###   ########.fr        "
+"    Updated: 2015/12/05 13:30:05 by jclerc           ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -30,4 +30,3 @@ inoremap ()    ()
 "Highlight double espace et espace en fin de ligne
 highlight Rs ctermbg=red guibg=red
 match Rs /  \| \+$/
-
