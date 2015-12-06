@@ -6,7 +6,7 @@
 "    By: jclerc <jclerc@student.42.fr>              +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2015/12/05 11:04:15 by jclerc            #+#    #+#              "
-"    Updated: 2015/12/05 13:50:08 by ael-hana         ###   ########.fr        "
+"    Updated: 2015/12/06 11:15:19 by jclerc           ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -19,6 +19,10 @@ syn on
 set cursorcolumn
 "indentation automatique
 set cindent
+"tab de 4 colonne
+set shiftwidth=4
+"afficher position du curseur
+set ruler
 "maper '(' et '{' pour les fermer automatiquement dans differentes situations
 inoremap {     {<CR>}<Esc>O
 inoremap {<CR> {<CR>}<Esc>O
