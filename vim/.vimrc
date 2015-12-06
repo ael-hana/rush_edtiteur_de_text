@@ -6,7 +6,7 @@
 "    By: jclerc <jclerc@student.42.fr>              +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2015/12/05 11:04:15 by jclerc            #+#    #+#              "
-"    Updated: 2015/12/06 23:21:21 by jclerc           ###   ########.fr        "
+"    Updated: 2015/12/06 23:26:07 by jclerc           ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -87,7 +87,7 @@ set backupdir=~/.vim
 	"line 7
 	:let name = $LOGNAME
 	:let i = 80 - strlen(name) - 62
-	:let chara = printf("/*   Created: %s by %s%s#+#    #+#             */",strftime("%Y/%m/%d %X"), name, repeat('', i))
+	:let chara = printf("/*   Created: %s by %s%s#+#    #+#             */",strftime("%Y/%m/%d %X"), name, repeat(' ', i))
 	:call append(7, chara)
 	"line 8
 	:let name = $LOGNAME
