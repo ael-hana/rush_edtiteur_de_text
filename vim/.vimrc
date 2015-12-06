@@ -6,7 +6,7 @@
 "    By: jclerc <jclerc@student.42.fr>              +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2015/12/05 11:04:15 by jclerc            #+#    #+#              "
-"    Updated: 2015/12/06 11:15:19 by jclerc           ###   ########.fr        "
+"    Updated: 2015/12/06 14:11:46 by jclerc           ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -34,3 +34,6 @@ inoremap ()    ()
 "Highlight double espace et espace en fin de ligne
 highlight Rs ctermbg=red guibg=red
 match Rs /  \| \+$/
+"activation backup file et copie des fichiers ~ dans ~/.vim
+set backup
+set backupdir=~/.vim
